@@ -1,7 +1,7 @@
 # Number guessing game
 from random import choice
 import time
-print("Hello")
+
 list = range(1,10)
 number = choice(list)
 print("I take a number(between 0 to 10). Can you know??\nType 'q' to exit.")
