@@ -1,5 +1,5 @@
 isimList = ["Kerim","Tarik","Ezgi","Kemal","Ilkay","Sukran","Merve"]
 soyisimList = ["Yilmaz","Ozturk","Dagdeviren","Ataturk","Dikmen","Kaya","Polat"]
 
-for i,j in zip(isimList,soyisimList):
-    print("Isim: {} Soyisim: {}".format(i,j))
+for x,y in zip(isimList,soyisimList):
+    print("Isim: ",x,"Soyisim: ",y,end="\n\n")
