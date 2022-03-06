@@ -62,7 +62,7 @@ class Library():
         if len(books) == 0:
             print("There is no such book.")
         else:
-            book = Book(books[0][0],books[0][1],books[0][2],books[0][3],books[0][4],books[0][4])
+            book = Book(books[0][0],books[0][1],books[0][2],books[0][3],books[0][4],books[0][5])
 
             print(book)
     
