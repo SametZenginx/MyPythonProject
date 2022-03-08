@@ -61,7 +61,8 @@ while True:
         reperToire.showSongs()
     
     elif operation=="4":
-        pass
+        reperToire.totalSongDuration()
+        
 
     else:
         print("Invalid operation.")

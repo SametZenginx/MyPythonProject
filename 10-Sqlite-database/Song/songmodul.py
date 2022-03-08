@@ -25,7 +25,7 @@ class Repertoire():
 
         query = "CREATE Table IF NOT EXISTS Repertoire(SongName TEXT,Artist TEXT,Album TEXT,ProductionCompany TEXT,SongDuration INT)"
 
-        self.cursor.connection(query)
+        self.cursor.execute(query)
 
         self.connection.commit()
     
